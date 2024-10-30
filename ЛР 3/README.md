@@ -12,14 +12,18 @@
 или стандартных unittest Python по выбору
 
 **Результат:**
-![Лабораторная работа 3. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR2_T1.png)
+
+![Лабораторная работа 3. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR3_1.png)
+
 Сложности при извлечении порядка точности из значения tolerance, для осуществления используем функцию ```log10``` для получения порядка, ```abs``` - берется абсолютное значение, чтобы избежать проблем с отрицательными числами.
 
 ```
 return abs(int(log10(1/tolerance)))
 ```
-Тесты:
-![Лабораторная работа 3. Задание 1.1](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR2_T1.png)
+**Тесты:**
+
+![Лабораторная работа 3. Задание 1.1](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR3_1test.png)
+![Лабораторная работа 3. Задание 1.1](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR3_1test2.png)
 
 ---
 **1.2:** Модернизируйте калькулятор из задачи 1.1. Добавьте переменное количество неименоманных аргументов (операндов, ∗args) после параметра action и перед keyword параметром tolerance. К списку
@@ -30,7 +34,7 @@ return abs(int(log10(1/tolerance)))
 
 **Результат:**
 
-![Лабораторная работа 3. Задание 2](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR2_T2.png)
+![Лабораторная работа 3. Задание 2](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR3_2.png)
 
 Чтобы избежать неверных операций проверяем что в ```args``` содержится как минимум два элемента на старте функции ```calculate```
 ```
