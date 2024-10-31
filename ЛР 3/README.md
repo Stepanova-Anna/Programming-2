@@ -49,3 +49,9 @@ return abs(int(log10(1/tolerance)))
         n = len(args)
         args = sorted(args)
 ```
+
+
+**Тесты:**
+
+![Лабораторная работа 3. Задание 1.1](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR3_2test.png)
+![Лабораторная работа 3. Задание 1.1](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR3_2test1.png)
