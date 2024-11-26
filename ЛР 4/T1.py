@@ -9,8 +9,7 @@ def two_sum(lst, target):
 
     return None
 
-# Пример использования
 lst = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 target = 8
 result = two_sum(lst, target)
-print(result)  # Результат: (0, 6)
+print(result)
