@@ -63,7 +63,15 @@ print(result)
 ![Лабораторная работа 4. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR4_T5.png)
 ![Лабораторная работа 4. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR4_T5_1.png)
 
-
+Код позволяет автоматизировать процесс отправки электронных писем с использованием Python. Сложности при написания программы были вызваны созданием почты mail.ru, а именно необходимость привязывать почту к аккаунту Вконтакте. 
+Для подключения к SMTP-серверу необходимо прописать настройки 
+```
+smtp_server = 'smtp.mail.ru'
+port = 587
+login = 'slouchdogg@mail.ru'
+password = 'CQCxTjwjZn9nKZTaG6Dt'
+recipient_email = 'stepanna2005@gmail.com'
+```
 
 ---
 **2.2:** Парсинг сайта погоды (wheather HTML parsing) на google.com и/или на простом сайте wttrin с помощью BeautifulSoup (v4).
