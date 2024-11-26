@@ -90,7 +90,7 @@ soup = BeautifulSoup(response.text, 'html.parser')
 ![Лабораторная работа 4. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR4_T6_1.png)
 ![Лабораторная работа 4. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR4_T6_2.png)
 
-
+---
 **2.3:** : С помощью бибилиотеки matplotlib вывести два окна с графиками
 функций по личному выбору. В одном окне два графика двух разных
 функций. В другом окне - один график ещё одной функции.
@@ -99,6 +99,7 @@ soup = BeautifulSoup(response.text, 'html.parser')
 **Результат:**
 
 ```matplotlib.pyplot``` - это подмодуль Matplotlib, который предоставляет удобные функции для создания графиков
+
 ```numpy``` - библиотека для работы с массивами и математику
 
 ![Лабораторная работа 4. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR4_T7.png)
