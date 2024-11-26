@@ -7,8 +7,8 @@ def fib_mem(n, memo = {}):
     memo[n] = fib_mem(n-1, memo) + fib_mem(n-2, memo)
     return memo[n]
 
-print(fib_mem(10))
-print(fib_mem(50))
+print(fib_mem(15))
+print(fib_mem(56))
 
 
 @cache
