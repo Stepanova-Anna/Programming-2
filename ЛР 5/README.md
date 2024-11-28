@@ -73,6 +73,7 @@ def add_ten_generator(fib_gen):
 все результаты на экране.
 
 **Результат:**
+Программа возварщает результаты вычислений примеров, которые написаны в отдельном файле operations.txt 
 
 ![Лабораторная работа 5. Задание 6](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR5_T6.png)
 
