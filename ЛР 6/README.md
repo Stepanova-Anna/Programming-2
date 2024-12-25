@@ -17,7 +17,12 @@ finally:
 
 ```try...except``` используется для обработки возможных ошибок при вводе данных и во время вычислений
 Всю историю операций программа записывает в файл newoutput.txt, это указано и можно изменить в файле params.ini
+![Лабораторная работа 6. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR6_T1_3.png)
 Например, если перед именем файла добавить C:\, то программа выведет ошибку записи и запишет ее в файл calc-history.log.txt
+
+![Лабораторная работа 6. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR6_T1_2.png)
+![Лабораторная работа 6. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR6_T1_4.png)
+![Лабораторная работа 6. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR6_T1_1.png)
 
 
 ---
