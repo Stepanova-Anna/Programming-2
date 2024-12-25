@@ -19,6 +19,8 @@
 
 ![Лабораторная работа 7. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR7_T1.png)
 
+`@given(integers(min_value=0, max_value=100))`: Этот декоратор генерирует случайные целые числа n в диапазоне от 0 до 100 включительно. Функция `test_factorial_valid_inputs` будет запускаться несколько раз для разных значений n.
+`def test_factorial_valid_inputs(n)`: Проверяет, что факториал неотрицательного числа n больше или равен 0.
 
 
 ---
