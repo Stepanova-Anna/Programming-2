@@ -51,11 +51,11 @@ unittest.main(verbosity=1)
 ```
 
 **Результат:**
+Результаты удавшихся тестов программа записывает в файл newoutput1.txt
 
-![Лабораторная работа 6. Задание 2](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR6_T2_1.png)
-![Лабораторная работа 6. Задание 2](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR6_T2_2.png)
+![Лабораторная работа 6. Задание 2](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR6_T2.png)
 
-`unittest.main(verbosity=1)`: Вызывает функцию `unittest.main()` для автоматического поиска и запуска всех тестов, определенных в классе `TestCalculateFunction`. Параметр `verbosity=1` устанавливает уровень детализации вывода при запуске тестов (показываются результаты каждого теста).
+`unittest.main(verbosity = 2)`: Вызывает функцию `unittest.main()`, которая автоматически находит и запускает все тесты, определенные в классе `TestSomeFunc`. Параметр `verbosity = 2` устанавливает уровень детализации вывода при запуске тестов (показываются результаты каждого теста, включая имена тестов).
 
 ---
 **3:** Тестирование с помощью pytest. По аналогии с предыдущим пунктом 2. Перепешите те же самые тесты с помощью фреймворка pytest. Сравните его использование с фреймворком unittest.
@@ -79,8 +79,12 @@ pytest:
 
 Оба фреймворка активно поддерживаются и имеют хорошую документацию. Однако pytest стал более популярным в последние годы среди разработчиков Python.
 
+![Лабораторная работа 6. Задание 3](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR6_T3.png)
+
+Результаты удавшихся тестов программа записывает в файл newoutput2.txt
+
 ![Лабораторная работа 6. Задание 3](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR6_T3_1.png)
-![Лабораторная работа 6. Задание 3](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR6_T3_2.png)
+
  
 
 
