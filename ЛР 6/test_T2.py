@@ -6,14 +6,14 @@ from T1 import write_log, calculate
 class TestSomeFunc(unittest.TestCase):
 
     def test_creating_file_exception(self):
-        args = [9,3]
+        args = [2,3]
         log_file = 'newoutput1.txt'
         with self.assertRaises(Exception) as context:
             write_log(*args, action = '*', file = log_file)
         self.assertIn("Ошибка записи в файл", str(context.exception))
 
     def test_calculate_division_by_zero(self):
-        args = [9,0]
+        args = [6,0]
         regex_text = "Ошибка: делить на ноль нельзя"
         with self.assertRaisesRegex(ValueError, regex_text):
             calculate(*args, operand = '/')
