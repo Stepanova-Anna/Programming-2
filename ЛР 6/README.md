@@ -39,7 +39,7 @@ unittest.main(verbosity=1)     # запуск тестов
 ```
 unittest.main(verbosity=1)
 ```
-При запуске `unittest` автоматически находит и выполняет все методы, начинающиеся с `test_`, и выдает информацию о том, какие тесты были пройдены, а какие провалены.
+
 **Результат:**
 
 ![Лабораторная работа 6. Задание 2](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR6_T2_1.png)
