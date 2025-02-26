@@ -9,3 +9,7 @@
 Левый (left leaf) и правый потомок (right leaf) вычисляется с использованием алгоритмов
 **Root = 4; height = 4, left_leaf = root*4, right_leaf = root+1**
 
+## Рекурсивный метод
+
+![Лабораторная работа 1. Задание 2](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR1_Calc.png)
+
