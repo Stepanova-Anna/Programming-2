@@ -9,7 +9,7 @@
 Левый (left leaf) и правый потомок (right leaf) вычисляется с использованием алгоритмов
 **Root = 4; height = 4, left_leaf = root*4, right_leaf = root+1**
 
-### Рекурсивный метод [код](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/bin_tree.py)
+### Рекурсивный метод: [код](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/bin_tree.py)
 
 Для вывода создаем словарь, где ключом является строковое представление корня, а значением - пустой список (для хранения дочерних узлов)
 
@@ -29,7 +29,7 @@
 По завершении рекурсивных вызовов возвращается сгенерированное бинарное дерево в виде словаря
 ![Лабораторная работа 1. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/LR1_T1.png)
 
-## Тест
+## Тест: [код](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/test_bin_tree.py)
 Для удобства отдельно вычисляем значения `left_leaf`, `right_leaf` и `expected_result`
 
 ![Лабораторная работа 1. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/LR1_test_T1.png)
