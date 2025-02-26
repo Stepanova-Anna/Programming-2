@@ -38,4 +38,11 @@
 
 ### Нерекурсивный метод: [код](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/bin_it_tree.py)
 
+![Лабораторная работа 1. Задание 2](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/LR1_T2.png)
+
+
+
 ### Тест: [код](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/test_bin_it_tree.py)
+
+
+![Лабораторная работа 1. Задание 2](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/LR1_test_T2.png)
