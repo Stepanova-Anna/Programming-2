@@ -29,7 +29,13 @@
 По завершении рекурсивных вызовов возвращается сгенерированное бинарное дерево в виде словаря
 ![Лабораторная работа 1. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/LR1_T1.png)
 
-## Тест: [код](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/test_bin_tree.py)
+### Тест: [код](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/test_bin_tree.py)
 Для удобства отдельно вычисляем значения `left_leaf`, `right_leaf` и `expected_result`
 
 ![Лабораторная работа 1. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/LR1_test_T1.png)
+
+---
+
+### Нерекурсивный метод: [код](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/bin_it_tree.py)
+
+### Тест: [код](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/test_bin_it_tree.py)
