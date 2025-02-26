@@ -52,5 +52,6 @@
 
 ### Тест: [код](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/test_bin_it_tree.py)
 
+Также для удобства отдельно вычисляем значения `left_leaf`, `right_leaf` и `expected_result`
 
 ![Лабораторная работа 1. Задание 2](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/LR1_test_T2.png)
