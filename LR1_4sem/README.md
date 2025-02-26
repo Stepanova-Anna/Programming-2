@@ -9,7 +9,7 @@
 Левый (left leaf) и правый потомок (right leaf) вычисляется с использованием алгоритмов
 **Root = 4; height = 4, left_leaf = root*4, right_leaf = root+1**
 
-### Рекурсивный метод [код](https://github.com/Stepanova-Anna/Programming-2/blob/main/ЛР%201/README.md)
+### Рекурсивный метод [код](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/bin_tree.py)
 
 Для вывода создаем словарь, где ключом является строковое представление корня, а значением - пустой список (для хранения дочерних узлов)
 
