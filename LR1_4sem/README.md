@@ -9,7 +9,17 @@
 Левый (left leaf) и правый потомок (right leaf) вычисляется с использованием алгоритмов
 **Root = 4; height = 4, left_leaf = root*4, right_leaf = root+1**
 
-## Рекурсивный метод
+### Рекурсивный метод
 
+**Рекурсивные вызовы**:
+
+    ```python
+    left_child = gen_bin_tree(height - 1, left_leaf(root), left_leaf, right_leaf)
+    right_child = gen_bin_tree(height - 1, right_leaf(root), left_leaf, right_leaf)
+    ```
+    
+    Рекурсивно создаются левые и правые дочерние поддеревья для текущего узла. Функции `left_leaf` и `right_leaf` применяются к значению корня, чтобы получить значения для дочерних узлов.
+    
+По завершении рекурсивных вызовов возвращается сгенерированное бинарное дерево в виде словаря
 ![Лабораторная работа 1. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/LR1_T1.png)
 
