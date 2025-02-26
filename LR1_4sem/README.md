@@ -38,6 +38,14 @@
 
 ### Нерекурсивный метод: [код](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/bin_it_tree.py)
 
+```
+   tree = {str(root): []}
+   stack = [(root, height)]
+```
+
+`stack` используется для хранения кортежей (значение узла, его высота) для обхода дерева.
+
+
 ![Лабораторная работа 1. Задание 2](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/LR1_T2.png)
 
 
