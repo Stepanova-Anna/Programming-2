@@ -17,7 +17,7 @@
     tree = {str(root): []}
 ```
 
-**Рекурсивные вызовы**:
+Рекурсивные вызовы:
 
     ```
     left_child = gen_bin_tree(height - 1, left_leaf(root), left_leaf, right_leaf)
@@ -29,3 +29,6 @@
 По завершении рекурсивных вызовов возвращается сгенерированное бинарное дерево в виде словаря
 ![Лабораторная работа 1. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/LR1_T1.png)
 
+## Тест
+
+![Лабораторная работа 1. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/LR1_test_T1.png)
