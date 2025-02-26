@@ -30,5 +30,6 @@
 ![Лабораторная работа 1. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/LR1_T1.png)
 
 ## Тест
+Для удобства отдельно вычисляем значения `left_leaf`, `right_leaf` и `expected_result`
 
 ![Лабораторная работа 1. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/LR1_test_T1.png)
