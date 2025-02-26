@@ -11,5 +11,5 @@
 
 ## Рекурсивный метод
 
-![Лабораторная работа 1. Задание 2](https://github.com/Stepanova-Anna/Programming-2/blob/main/img/LR1_Calc.png)
+![Лабораторная работа 1. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/LR1_T1.png)
 
