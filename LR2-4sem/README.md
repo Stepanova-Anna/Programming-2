@@ -11,4 +11,4 @@
 >-README.md файл (см. борд), в котором описать краткий отчет о проделанной работе и дать комментарии по поводу сравнения эффективности нерекурсивного и рекурсивного реализаций.
 
 ![Лабораторная работа 2. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR2-4sem/t1.1.png)
-![Лабораторная работа 2. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR2_4sem/t1.2.png)
+![Лабораторная работа 2. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR2-4sem/t1.2.png)
