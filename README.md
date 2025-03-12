@@ -1,6 +1,6 @@
 # Программирование. 4 семестр. Степанова Анна 1 гр. 2 п. гр.
 ## :link: [Лабораторная работа № 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR1_4sem/README.md)
-
+## :link: [Лабораторная работа № 2](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR2-4sem/README.md)
 
 
 # Программирование. 3 семестр. Степанова Анна 1 гр. 2 п. гр.
