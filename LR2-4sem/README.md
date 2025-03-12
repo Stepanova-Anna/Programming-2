@@ -27,6 +27,15 @@ def setup_data(n: int) -> list:
     return data
 ```
 Эта функция собирает данные, создавая список случайных корней и высот для деревьев.
+```
+def calculate_time(data, func) -> float:
+    start_time = time.time()
+    for root, height in data:
+        func(height, root)
+    end_time = time.time()
+    return (end_time - start_time) / len(data)
+```
+Функция замеряет, сколько времени требуется для выполнения переданной функции func для каждого набора данных, и возвращает среднее время на одну итерацию.
 
 
 ![Лабораторная работа 2. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR2-4sem/t1.1.png)
