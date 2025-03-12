@@ -10,5 +10,10 @@
 >-файлы с графиками, чтобы можно было понять какой алгоритм работает быстрее (внутри борда), графики строить по обоим вариантам ("timeit", "complex-profiling");
 >-README.md файл (см. борд), в котором описать краткий отчет о проделанной работе и дать комментарии по поводу сравнения эффективности нерекурсивного и рекурсивного реализаций.
 
+**Результат [код](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR2-4sem/Task.py)**
+
+
 ![Лабораторная работа 2. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR2-4sem/t1.1.png)
+
+
 ![Лабораторная работа 2. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR2-4sem/t1.2.png)
