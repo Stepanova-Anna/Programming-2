@@ -12,6 +12,22 @@
 
 **Результат [код](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR2-4sem/Task.py)**
 
+Необходимые библиотеки:
+`time`: для замера времени выполнения функций.
+`randint`: для генерации случайных чисел.
+`matplotlib.pyplot`: для визуализации (построение графиков).
+
+```
+def setup_data(n: int) -> list:
+    data = []
+    for _ in range(n):
+        root = randint(0, 3)
+        height = randint(0, 10)
+        data.append((root, height))
+    return data
+```
+Эта функция собирает данные, создавая список случайных корней и высот для деревьев.
+
 
 ![Лабораторная работа 2. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR2-4sem/t1.1.png)
 
