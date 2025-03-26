@@ -15,16 +15,9 @@
 
 `datetime`: Предоставляет классы для работы с датой и временем.
 
-```
-def setup_data(n: int) -> list:
-    data = []
-    for _ in range(n):
-        root = randint(0, 3)
-        height = randint(0, 10)
-        data.append((root, height))
-    return data
-```
+Декоратор `trace`: Это декоратор, который оборачивает функцию и добавляет функциональность трассировки.
 Эта функция собирает данные, создавая список случайных корней и высот для деревьев.
+
 ```
 def calculate_time(data, func) -> float:
     start_time = time.time()
