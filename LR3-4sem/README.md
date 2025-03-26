@@ -21,7 +21,12 @@
 
 ![Лабораторная работа 3. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR3-4sem/lr3.png)
 
-**[тесты](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR3-4sem/test_lr3.py)**
+**[Тесты](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR3-4sem/test_lr3.py)**
 
-![Лабораторная работа 3. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR3-4sem/test.png)
+Этот код предполагает, что `handle` является объектом подключения к базе данных, и у него есть метод `cursor()`
 
+![Лабораторная работа 3. Задание 2](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR3-4sem/test.png)
+
+**[Задание с контекстным менеджером](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR3-4sem/copylab.py)**
+
+![Лабораторная работа 3. Задание 3](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR3-4sem/logs.png)
