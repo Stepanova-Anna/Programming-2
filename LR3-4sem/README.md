@@ -18,19 +18,10 @@
 Декоратор `trace`: Это декоратор, который оборачивает функцию и добавляет функциональность трассировки.
 Эта функция собирает данные, создавая список случайных корней и высот для деревьев.
 
-```
-def calculate_time(data, func) -> float:
-    start_time = time.time()
-    for root, height in data:
-        func(height, root)
-    end_time = time.time()
-    return (end_time - start_time) / len(data)
-```
-Функция замеряет, сколько времени требуется для выполнения переданной функции func для каждого набора данных, и возвращает среднее время на одну итерацию.
-
 
 ![Лабораторная работа 3. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR3-4sem/lr3.png)
 
+**[тесты](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR3-4sem/test_lr3.py)**
 
 ![Лабораторная работа 3. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR3-4sem/test.png)
 
