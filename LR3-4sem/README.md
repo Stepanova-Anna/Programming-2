@@ -29,8 +29,8 @@ def calculate_time(data, func) -> float:
 Функция замеряет, сколько времени требуется для выполнения переданной функции func для каждого набора данных, и возвращает среднее время на одну итерацию.
 
 
-![Лабораторная работа 3. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR2-4sem/lr3.png)
+![Лабораторная работа 3. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR3-4sem/lr3.png)
 
 
-![Лабораторная работа 3. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR2-4sem/test.png)
+![Лабораторная работа 3. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR3-4sem/test.png)
 
