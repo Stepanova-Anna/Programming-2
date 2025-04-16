@@ -66,3 +66,34 @@
 - Отображает курсы через Jinja2 шаблоны
 
 - Получает актуальные курсы с сайта ЦБ РФ
+
+Модель 
+```
+class CurrencyRates:
+    _instance = None  # Хранит единственный экземпляр класса (Singleton)
+    
+    def __new__(cls, currencies=None):
+        if cls._instance is None:  # Проверка существования экземпляра
+            cls._instance = super().__new__(cls)  # Создание экземпляра
+            cls._instance.currencies = currencies or ["USD", "EUR", "GBP"]  # Дефолтные валюты
+            cls._instance.rates = {}  # Хранение текущих курсов
+            cls._instance.fetch_rates()  # Первоначальная загрузка
+        return cls._instance
+```
+**Методы:**
+
+`fetch_rates():`
+
+- Делает GET-запрос к API ЦБ РФ
+
+- Парсит XML-ответ с помощью ElementTree
+
+- Рассчитывает курс с учетом номинала (например, для 1 USD вместо 100 JPY)
+
+- Сохраняет дату обновления
+
+`get_rates():` Возвращает текущие курсы
+
+`set_currencies():` Обновляет список отслеживаемых валют
+
+Паттерн: `Singleton` гарантирует единственный экземпляр модели в приложении.
