@@ -67,7 +67,7 @@
 
 - Получает актуальные курсы с сайта ЦБ РФ
 
-[**Модель**](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR4-4sem/model.py)
+[**Контроллер**](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR4-4sem/controlers/__init__.py)
 
 **Работа с БД:**
 
@@ -81,6 +81,31 @@
 
 `update_currencies()` - обновляет список отслеживаемых валют и возвращает обновленное представление
 
-[**Контроллер**](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR4-4sem/controlers/__init__.py)
+[**Модель**](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR4-4sem/model.py)
+
+**`Singleton` паттерн:**
+
+`_instance` хранит единственный экземпляр класса
+
+`__new__` гарантирует создание только одного объекта
+
+**Основные методы:**
+
+`fetch_rates():`
+
+- Делает запрос к API ЦБ РФ (XML-формат)
+
+- Парсит ответ и извлекает курсы для заданных валют
+
+- Нормализует значения (учитывает номинал, например, для 1 USD вместо 100 JPY)
+
+- Сохраняет дату обновления
+
+**Дополнительные методы:**
+
+`get_rates():` возвращает текущие курсы в формате словаря
+
+`set_currencies():` обновляет список отслеживаемых валют
+
 
 
