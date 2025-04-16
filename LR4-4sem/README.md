@@ -107,5 +107,6 @@
 
 `set_currencies():` обновляет список отслеживаемых валют
 
+[**HTML-шаблон (Jinja2) для отображения курсов валют**](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR4-4sem/tempaltes/index.html)
 
 
