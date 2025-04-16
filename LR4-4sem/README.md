@@ -47,3 +47,12 @@
 > Протестировать приложение, проверив работу с разными валютами.
 
 ### Результат:
+
+Структура проекта
+
+![Лабораторная работа 4. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR4-4sem/2.png)
+
+Вывод данных: 
+
+![Лабораторная работа 4. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR4-4sem/1.png)
+
