@@ -67,7 +67,7 @@
 
 - Получает актуальные курсы с сайта ЦБ РФ
 
-Модель 
+[**Модель**](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR4-4sem/model.py)
 ```
 class CurrencyRates:
     _instance = None  # Хранит единственный экземпляр класса (Singleton)
