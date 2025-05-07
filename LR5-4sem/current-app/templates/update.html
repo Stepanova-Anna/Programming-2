@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Currencies</title>
+</head>
+<body>
+    <h1>Обновление отслеживаемых валют</h1>
+
+    <form method="POST">
+        <label for="currencies">Введите валюты (через пробел):</label><br>
+        <input type="text" id="currencies" name="currencies"
+               placeholder="USD EUR GBP" value="{{ ' '.join(tracked_currencies) }}">
+        <button type="submit">Обновить</button>
+    </form>
+
+    <p><a href="{{ url_for('index') }}">Назад к курсу</a></p>
+</body>
+</html>
