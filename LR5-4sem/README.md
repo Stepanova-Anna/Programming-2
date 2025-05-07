@@ -67,3 +67,9 @@ currency_app/
 ---
 
 ## Результат
+
+[**Папка с проектом**](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR5-4sem/current-app)
+
+![Лабораторная работа 5. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR5-4sem/старт.png)
+
+![Лабораторная работа 5. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR5-4sem/курсы.png)
