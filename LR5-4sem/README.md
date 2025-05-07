@@ -97,7 +97,7 @@ currency_app/
 
 
 
-Singleton в model.py:
+**Singleton в model.py:**
 
 ```
 def __new__(cls, app):
@@ -107,11 +107,11 @@ def __new__(cls, app):
     return cls._instance
 ```
 
-Гарантирует единственный экземпляр класса
+- Гарантирует единственный экземпляр класса
 
-Хранит ссылку на Flask-приложение для доступа к конфигурации
+- Хранит ссылку на Flask-приложение для доступа к конфигурации
 
-
+*Вид проекта*
 
 ![Лабораторная работа 5. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR5-4sem/старт.png)
 
