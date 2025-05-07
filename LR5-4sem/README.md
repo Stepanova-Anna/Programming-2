@@ -70,6 +70,49 @@ currency_app/
 
 [**Папка с проектом**](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR5-4sem/current-app)
 
+Архитектура MVC
+Проект следует паттерну Model-View-Controller:
+
+*Model - CurrencyRates:*
+
+- Отвечает за работу с данными (API ЦБ + SQLite)
+
+- Реализует паттерн Singleton через `__new__`
+
+- Использует SQLAlchemy для ORM-маппинга
+
+*View - Jinja2 шаблоны:*
+
+- `index.html` - отображает текущие курсы
+
+- `update.html` - форма для обновления списка валют
+
+*Controller - CurrencyController:*
+
+- Обрабатывает HTTP-запросы
+
+- Координирует работу модели и представления
+
+- Возвращает готовый HTML
+
+
+
+Singleton в model.py:
+
+```
+def __new__(cls, app):
+    if cls._instance is None:
+        cls._instance = super().__new__(cls)
+        cls._instance.app = app  # Сохраняем ссылку на приложение
+    return cls._instance
+```
+
+Гарантирует единственный экземпляр класса
+
+Хранит ссылку на Flask-приложение для доступа к конфигурации
+
+
+
 ![Лабораторная работа 5. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR5-4sem/старт.png)
 
 ![Лабораторная работа 5. Задание 1](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR5-4sem/курсы.png)
