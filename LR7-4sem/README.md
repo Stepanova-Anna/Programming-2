@@ -9,12 +9,12 @@
 >- 
 ### Результат:
 
-[**Папка с проектом**](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR7-4sem/LR7-prog.zip)
+[**Папка с проектом**](https://github.com/Stepanova-Anna/Programming-2/tree/main/LR7-4sem/LR7-prog/LR7-prog)
 
 [**Борд replit**](https://replit.com/@stepanna/LR7-prog#source/index.rst)
 
 *Ход работы:*
-- Установка sphinx
+- Установка sphinx:
 
 ![Лабораторная работа 7](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR7-4sem/2.png)
 
@@ -26,14 +26,14 @@
 
 ![Лабораторная работа 7](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR7-4sem/6.png)
 
-Часть кода `index.rst`
+- Часть кода `index.rst`
 
 ![Лабораторная работа 7](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR7-4sem/5.png)
 
-Запуск проекта:
+- Запуск проекта:
 
 ![Лабораторная работа 7](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR7-4sem/4.png)
 
-Результат:
+- Результат:
 
 ![Лабораторная работа 7](https://github.com/Stepanova-Anna/Programming-2/blob/main/LR7-4sem/site.png)
