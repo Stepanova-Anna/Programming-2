@@ -1,8 +1,6 @@
 # Лабораторная работа №8
 
-[**Папка mysite**](https://replit.com/@stepanna/LR7-prog#source/index.rst)
-
-[**Файл manage.py**](https://replit.com/@stepanna/LR7-prog#source/index.rst)
+[**Папка mysite**](https://github.com/Stepanova-Anna/Programming-2/tree/main/LR8-4sem/mysite)
 
 *Ход работы:*
 
