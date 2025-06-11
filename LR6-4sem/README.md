@@ -6,6 +6,7 @@
 [**Архив с проектом**](https://github.com/Stepanova-Anna/Programming-2/tree/main/LR7-4sem/LR7-prog/LR7-prog)
 
 `doker-compose.yml` (`main.py` с самого начала у меня был назван `new.py`, так как все работало, решила не исправлять это)
+
 ```
 version: '3.8'
 
@@ -46,7 +47,7 @@ services:
     restart: always
 ```
 
-`nginx/default.config`
+`nginx/default.config`:
 
 ```
 server {
@@ -61,6 +62,18 @@ server {
  proxy_set_header X-Forwarded-Proto $scheme;
     }
 }
+```
+
+В `Dockerfile` изменена строка:
+
+```
+CMD ["uvicorn", "new:app", "--host", "0.0.0.0", "--port", "8000"]
+```
+
+В `new.py`:
+
+```
+engine = create_engine('mysql+pymysql://user:1234@db/mysqldb')
 ```
 
 К сожалению, после многочисленных попыток и исправлений результат подключения к базам данных был одним и тем же. 
